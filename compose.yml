@@ -1,0 +1,17 @@
+volumes:
+  midnight-data-testnet: {}
+
+services:
+  midnight-node-testnet:
+    image: ${MIDNIGHT_NODE_IMAGE}
+    platform: linux/amd64
+    ports:
+      - "9944:9944"
+      - "30333:30333"
+    env_file:
+      - ./.env
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9933/health" ]
+      interval: 2s
+    volumes:
+      - midnight-data-testnet:/node
