@@ -11,7 +11,7 @@ services:
     env_file:
       - ./.env
     healthcheck:
-      test: [ "CMD", "curl", "-f", "http://localhost:9933/health" ]
+      test: [ "CMD", "curl", "-f", "http://localhost:9944/health" ]
       interval: 2s
     volumes:
       - midnight-data-testnet:/node
