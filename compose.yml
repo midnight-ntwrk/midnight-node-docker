@@ -14,4 +14,4 @@ services:
       test: [ "CMD", "curl", "-f", "http://localhost:9944/health" ]
       interval: 2s
     volumes:
-      - midnight-data-testnet:/node
+      - midnight-data-testnet:/data
