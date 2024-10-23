@@ -1,6 +1,6 @@
 # Midnight Node Docker
 
-This allows easy orchestration of Midnight Node service.
+This allows for easy orchestration of the Midnight Node service.
 
 ## System requirements
 
