@@ -7,7 +7,7 @@ volumes:
 
 services:
   cardano-node:
-    image: ghcr.io/intersectmbo/cardano-node:10.1.2
+    image: ghcr.io/intersectmbo/cardano-node:10.1.4
     restart: unless-stopped
     container_name: cardano-node
     ports:
