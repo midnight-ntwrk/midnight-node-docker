@@ -15,13 +15,13 @@ This allows for easy orchestration of the Midnight Node service.
 2. Navigate to .yml file and `docker-compose up`
 
 ```shell
-docker-compose up -d
+DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose up -d
 ```
 
 or for both Midnight and Cardano:
 
 ```shell
-docker-compose -f ./compose-partner-chains.yml -f ./compose.yml up -d
+DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose -f ./compose-partner-chains.yml -f ./compose.yml up -d
 ```
 
 🚀 That's it.
