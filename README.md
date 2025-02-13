@@ -20,7 +20,7 @@ docker-compose up -d
 
 or for both Midnight and Cardano:
 
-``shell`
+```shell
 docker-compose -f ./compose-partner-chains.yml -f ./compose.yml up -d
 ```
 
