@@ -3,11 +3,13 @@ volumes:
 
 services:
   midnight-node-testnet:
+    container_name: midnight
     image: ${MIDNIGHT_NODE_IMAGE}
     platform: linux/amd64
     ports:
       - "9944:9944"
       - "30333:30333"
+      - "9615:9615"
     env_file:
       - ./.env
     healthcheck:
