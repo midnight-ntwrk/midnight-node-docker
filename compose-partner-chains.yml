@@ -79,7 +79,7 @@ services:
       - --node-socket
       - /ipc/node.socket
       - --node-config
-      - /config/preview/cardano-node/config.json
+      - /config/config.json
       - --host
       - 0.0.0.0
       - --workdir
@@ -87,7 +87,7 @@ services:
       - --match
       - "*"
       - --since
-      - "54412148.656e903c510441032ad566d26fecf7be98882bdefde6a1ed961cd8e7bfa9d18a"
+      - "origin"
     ports:
       - "1442:1442"
     volumes:
