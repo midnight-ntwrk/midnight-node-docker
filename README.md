@@ -24,4 +24,10 @@ or for both Midnight and Cardano:
 DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose -f ./compose-partner-chains.yml -f ./compose.yml up -d
 ```
 
+or for Midnight, Cardano and a local Proof Server:
+
+```shell
+DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose -f ./compose-partner-chains.yml -f ./compose.yml -f ./proof-server.yml up -d
+```
+
 🚀 That's it.
