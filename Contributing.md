@@ -1,0 +1,30 @@
+## Contribute to Midnight
+We invite you to contribute to the Midnight network! Share your feedback, request features, or report bugs using the form below
+Ticket Title: should be a quick yet complete summary of the ask
+Ticket Type
+Bug Report: Provide detailed information about the issue, including steps to reproduce it, expected behavior, and actual behavior, screenshots or any other relevant information
+#### Describe what the problem is
+
+#### What should be the expected behavior or results?
+
+#### What was the actual behavior or results? 
+
+#### Provide any other clarifying details that would help in reproducing or identifying the issue
+
+Feature Request: Clearly describe your feature, its benefits, and most important the expected outcome. This helps us analyze the proposed solution and develop alternatives
+#### Describe the proposed feature.
+#### User Need: What user need does this feature address? Include use cases and user stories.
+#### Benefit: What benefits does this feature provide to users and the platform?
+#### Details: Proposed implementation ideas, alternatives considered, dependencies, and any additional information.
+
+Documentation Improvement: Clearly describe the improvement requested for existing content and/or raise missing areas of documentation and provide details for what should be included.
+#### Documentation url: Specify the exact location of the documentation you are referencing.
+#### Description of Improvement: Provide a detailed description of the requested improvement.
+#### Proposed Solution (Optional):
+If you have specific suggestions for how to implement the improvement, provide them here.
+This could include suggested wording, code snippets, or structural changes
+
+Enhancement (Noel Rimbert WIP)
+
+Question: Ask anything about Midnight! We're here to help. Connect with us on [Discord], [Telegram], and [Twitter] and Join the Community to stay updated and engage with other Midnight enthusiasts.
+We appreciate your contributions!
