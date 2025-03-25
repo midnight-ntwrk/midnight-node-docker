@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Provide detailed information about the issue, including steps to reproduce it, expected behavior, and actual behavior, screenshots or any other relevant information
+Provide detailed information about the issue, including steps to reproduce it, expected behavior, and actual behaviour, screenshots or any other relevant information
 
 #### Describe what the problem is
 
