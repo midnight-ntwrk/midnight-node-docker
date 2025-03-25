@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Clearly describe your feature, its benefits, and most important the expected outcome. This helps us analyze the proposed solution and develop alternatives
+Feature Request: Clearly describe your feature, its benefits, and most important the expected outcome. This helps us analyze the proposed solution and develop alternatives
 
 #### Describe the proposed feature.
 #### User Need: What user need does this feature address? Include use cases and user stories.
