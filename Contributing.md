@@ -1,5 +1,6 @@
 ## Contribute to Midnight
 We invite you to contribute to the Midnight network! Share your feedback, request features, or report bugs using the form below
+
 Ticket Title: should be a quick yet complete summary of the ask
 
 Ticket Type:
