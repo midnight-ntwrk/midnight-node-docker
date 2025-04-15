@@ -1,6 +1,6 @@
 # Midnight Node Docker
 
-This allows easy orchestration of Midnight Node service.
+This allows for easy orchestration of the Midnight Node service.
 
 ## System requirements
 
@@ -15,7 +15,19 @@ This allows easy orchestration of Midnight Node service.
 2. Navigate to .yml file and `docker-compose up`
 
 ```shell
-docker-compose up -d
+DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose up -d
+```
+
+or for both Midnight and Cardano:
+
+```shell
+DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose -f ./compose-partner-chains.yml -f ./compose.yml up -d
+```
+
+or for Midnight, Cardano and a local Proof Server:
+
+```shell
+DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose -f ./compose-partner-chains.yml -f ./compose.yml -f ./proof-server.yml up -d
 ```
 
 🚀 That's it.
