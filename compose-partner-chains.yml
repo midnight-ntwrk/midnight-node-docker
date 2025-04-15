@@ -3,7 +3,6 @@ volumes:
   db-sync-data: {}
   postgres-data: {}
   ogmios-data: {}
-  kupo-data: {}
 
 services:
   cardano-node:
@@ -71,26 +70,3 @@ services:
       - /config/preview/cardano-node/config.json
       - --host
       - 0.0.0.0
-
-  kupo:
-    image: cardanosolutions/kupo:v2.9.0
-    container_name: kupo
-    command:
-      - --node-socket
-      - /ipc/node.socket
-      - --node-config
-      - /config/config.json
-      - --host
-      - 0.0.0.0
-      - --workdir
-      - /db
-      - --match
-      - "*"
-      - --since
-      - "origin"
-    ports:
-      - "1442:1442"
-    volumes:
-      - kupo-data:/db
-      - ${HOME_IPC}:/ipc  # Use ${HOME_IPC} from .env
-      - $CARDANO_CONFIG_DIR:/config
