@@ -1,6 +1,17 @@
-# Midnight Node Docker
+ 📦 This Repository is Archived
 
-This allows for easy orchestration of the Midnight Node service.
+**Note:** This project is no longer maintained here.
+
+🚀 It has moved to a new home:
+👉 [**github.com/midnightntwrk/midnight-node-docker**](https://github.com/midnightntwrk/midnight-node-docker)
+
+(note the lack of a hyphen in the org name)
+
+Please update your bookmarks and head over there for the latest updates!
+
+# Midnight Node Docker:
+
+This allowed for easy orchestration of the Midnight Node service.
 
 ## System requirements
 
@@ -31,3 +42,16 @@ DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose -f ./compose-partner-chains.y
 ```
 
 🚀 That's it.
+
+----
+
+ 📦 This Repository is Archived
+
+**Note:** This project is no longer maintained here.
+
+🚀 It has moved to a new home:
+👉 [**github.com/midnightntwrk/midnight-node-docker**](https://github.com/midnightntwrk/midnight-node-docker)
+
+(note the lack of a hyphen in the org name)
+
+Please update your bookmarks and head over there for the latest updates!
